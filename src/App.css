@@ -7,6 +7,20 @@
   pointer-events: none;
 }
 
+input::-moz-focus-outer{
+  outline: 1px solid black;
+}
+
+input::-moz-focus-inner{
+  outline: 1px solid black;
+}
+
+input:focus{
+  outline:none;
+  border: 0px;
+  border-color: aliceblue;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
